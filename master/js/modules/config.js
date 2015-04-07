@@ -41,18 +41,16 @@ App.config(['$stateProvider', '$locationProvider', '$urlRouterProvider', 'RouteH
             })
 
 
-
             /*GRAPHS PAGE*/
             .state('app.graphs', {
                 url: '/graphs',
-                title: 'Graphs',
+                title: 'graphs',
                 templateUrl: helper.basepath('graphs.html'),
-                resolve: helper.resolveFor('flot-chart','carousel.js', 'chart.js')
+                controller: ["$rootScope", function ($rootScope) {
+                    $rootScope.app.layout.isCollapsed = true;
+                }],
+                resolve: helper.resolveFor('flot-chart', 'flot-chart-plugins', 'angular-carousel', 'chartjs')
             })
-
-
-
-
 
             .state('app.dashboard', {
                 url: '/dashboard',

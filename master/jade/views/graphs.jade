@@ -1,11 +1,41 @@
-//
-   Created by casperschultz on 07/04/15.
+//Created by casperschultz on 07/04/15.
+
 h3 Graphs
 .row(ng-controller='ButtonsCtrl')
-    .col-lg-4
-        h4 Checkbox
-        pre {{checkModel}}
-        .btn-group
-            label.btn.btn-primary(ng-model='checkModel.left', btn-checkbox='btn-checkbox') Left
-            label.btn.btn-primary(ng-model='checkModel.middle', btn-checkbox='btn-checkbox') Middle
-            label.btn.btn-primary(ng-model='checkModel.right', btn-checkbox='btn-checkbox') Right
+    .btn-group
+        label.btn.btn-success(ng-model='radioModel', btn-radio="'Left'", uncheckable='uncheckable') Left
+        label.btn.btn-success(ng-model='radioModel', btn-radio="'Middle'", uncheckable='uncheckable') Middle
+        label.btn.btn-success(ng-model='radioModel', btn-radio="'Right'", uncheckable='uncheckable') Right
+hr
+
+h3 Carousel to hold graphs
+    .carousel-demo
+        ul.list-unstyled.carousel2(rn-carousel='', rn-carousel-buffered='')
+            li slide 1
+                h4 Line Chart
+            div
+                canvas(linechart='', options='lineOptions', data='lineData', height='120', responsive='true')
+            li slide 2
+            li slide 3
+                .bgimage(ng-style="{'background-image': 'url(' + slide.img + ')'}")
+                    | # {{ slide.id }}
+        .rn-carousel-indicator.custom-indicator
+            span(ng-repeat='slide in slides2', ng-class='{active: $index==$parent.carouselIndex22}', ng-click='$parent.carouselIndex22 = $index') &starf;
+
+
+
+    //.carousel-demo
+    //    ul.list-unstyled.carousel5(rn-carousel='', rn-carousel-index='0')
+    //        li Slide 1
+    //        li Slide 2
+    //        li Slide 3
+    //    .rn-carousel-indicator.custom-indicator
+    //        span(ng-repeat='slide in slides2', ng-class='{active: $index==$parent.carouselIndex22}', ng-click='$parent.carouselIndex22 = $index') &starf;
+
+h3 test graph
+.container-fluid(ng-controller='ChartJSController')
+    .row.mb-lg
+        .col-lg-6
+            h4 Line Chart
+            div
+                canvas(linechart='', options='lineOptions', data='lineData', height='120', responsive='true')

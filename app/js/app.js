@@ -111,6 +111,19 @@ App.config(['$stateProvider', '$locationProvider', '$urlRouterProvider', 'RouteH
                 title: 'Summary',
                 templateUrl: helper.basepath('summary.html')
             })
+
+
+            /*GRAPHS PAGE*/
+            .state('app.graphs', {
+                url: '/graphs',
+                title: 'graphs',
+                templateUrl: helper.basepath('graphs.html'),
+                controller: ["$rootScope", function ($rootScope) {
+                    $rootScope.app.layout.isCollapsed = true;
+                }],
+                resolve: helper.resolveFor('flot-chart', 'flot-chart-plugins', 'angular-carousel', 'chartjs')
+            })
+
             .state('app.dashboard', {
                 url: '/dashboard',
                 title: 'Dashboard',
@@ -504,6 +517,8 @@ App.config(['$stateProvider', '$locationProvider', '$urlRouterProvider', 'RouteH
                 title: 'Multilevel - Level3 Item',
                 template: '<div class="lead ba p"> Menu item @ Level 3</div>'
             })
+
+
             //
             // Single Page Routes
             // -----------------------------------
@@ -562,6 +577,7 @@ App.config(['$stateProvider', '$locationProvider', '$urlRouterProvider', 'RouteH
                 }],
                 resolve: helper.resolveFor('flot-chart', 'flot-chart-plugins')
             })
+
             //
             // CUSTOM RESOLVES
             //   Add your own resolves properties
@@ -578,6 +594,7 @@ App.config(['$stateProvider', '$locationProvider', '$urlRouterProvider', 'RouteH
             //     }
             //   )
             // })
+
         ;
 
 

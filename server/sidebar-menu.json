@@ -5,8 +5,8 @@
     "icon": "icon-energy"
   },
   {
-    "text": "Progress",
-    "sref": "app.dashboard_v2",
+    "text": "Graphs",
+    "sref": "app.graphs",
     "icon": "icon-trophy"
   },
   {
