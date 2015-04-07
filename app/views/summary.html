@@ -1,0 +1,83 @@
+<h3>Timeline</h3>
+<!-- START timeline-->
+<ul ng-class="timelineAlt ? 'timeline-alt' : 'timeline'" ng-init="timelineAlt=false">
+   <li data-datetime="Today" class="timeline-separator"></li>
+   <!-- START timeline item-->
+   <li>
+      <div class="timeline-badge primary">
+         <em class="fa fa-users"></em>
+      </div>
+      <div class="timeline-panel">
+         <div ng-class="timelineAlt ? 'right' : 'left'" class="popover">
+            <h4 class="popover-title">Archived goal</h4>
+            <div class="arrow"></div>
+            <div class="popover-content">
+               <p>Completed 1300 steps in 2h 34m</p>
+            </div>
+         </div>
+      </div>
+   </li>
+   <!-- END timeline item-->
+   <!-- START timeline item-->
+   <li class="timeline-inverted">
+      <div class="timeline-badge warning">
+         <em class="fa fa-phone"></em>
+      </div>
+      <div class="timeline-panel">
+         <div class="popover right">
+            <h4 class="popover-title">Changed goal</h4>
+            <div class="arrow"></div>
+            <div class="popover-content">
+               <p>Changed goal from 1200 steps to 1300 steps</p>
+            </div>
+         </div>
+      </div>
+   </li>
+   <!-- END timeline item-->
+   <!-- START timeline separator-->
+   <li data-datetime="Yesterday" class="timeline-separator"></li>
+   <!-- END timeline separator-->
+   <!-- START timeline item-->
+   <li>
+      <div class="timeline-badge danger">
+         <em class="fa fa-video-camera"></em>
+      </div>
+      <div class="timeline-panel">
+         <div ng-class="timelineAlt ? 'right' : 'left'" class="popover">
+            <h4 class="popover-title">Missed goal</h4>
+            <div class="arrow"></div>
+            <div class="popover-content">
+               <p>Missed goal of 1200 steps by 200 steps</p>
+            </div>
+         </div>
+      </div>
+   </li>
+   <!-- END timeline item-->
+   <!-- START timeline separator-->
+   <li data-datetime="2014-05-21" class="timeline-separator"></li>
+   <!-- END timeline separator-->
+   <!-- START timeline item-->
+   <li class="timeline-inverted">
+      <div class="timeline-badge success">
+         <em class="fa fa-music"></em>
+      </div>
+      <div class="timeline-panel">
+         <div class="popover right">
+            <h4 class="popover-title">Relax</h4>
+            <div class="arrow"></div>
+            <div class="popover-content">
+               <p>Listen some music</p>
+            </div>
+         </div>
+      </div>
+   </li>
+   <!-- END timeline item-->
+   <!-- START timeline item-->
+   <li class="timeline-end">
+      <a href="#" class="timeline-badge">
+         <em class="fa fa-plus"></em>
+      </a>
+   </li>
+   <!-- END timeline item-->
+</ul>
+<!-- END timeline-->

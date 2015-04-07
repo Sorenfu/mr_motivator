@@ -1,0 +1,60 @@
+h3 Timeline
+// START timeline
+ul(ng-class="timelineAlt ? 'timeline-alt' : 'timeline'", ng-init="timelineAlt=false")
+  li.timeline-separator(data-datetime="Today")
+  // START timeline item
+  li
+    .timeline-badge.primary
+      em.fa.fa-users
+    .timeline-panel
+      .popover(ng-class="timelineAlt ? 'right' : 'left'")
+          h4.popover-title Archived goal
+          .arrow
+          .popover-content
+            p Completed 1300 steps in 2h 34m
+  // END timeline item
+  // START timeline item
+  li.timeline-inverted
+    .timeline-badge.warning
+      em.fa.fa-phone
+    .timeline-panel
+      .popover.right
+          h4.popover-title Changed goal
+          .arrow
+          .popover-content
+            p Changed goal from 1200 steps to 1300 steps
+  // END timeline item
+  // START timeline separator
+  li.timeline-separator(data-datetime="Yesterday")
+  // END timeline separator
+  // START timeline item
+  li
+    .timeline-badge.danger
+      em.fa.fa-video-camera
+    .timeline-panel
+      .popover(ng-class="timelineAlt ? 'right' : 'left'")
+          h4.popover-title Missed goal
+          .arrow
+          .popover-content
+            p Missed goal of 1200 steps by 200 steps
+  // END timeline item
+  // START timeline separator
+  li.timeline-separator(data-datetime="2014-05-21")
+  // END timeline separator
+  // START timeline item
+  li.timeline-inverted
+    .timeline-badge.success
+      em.fa.fa-music
+    .timeline-panel
+      .popover.right
+          h4.popover-title Relax
+          .arrow
+          .popover-content
+            p Listen some music
+  // END timeline item
+  // START timeline item
+  li.timeline-end
+    a(href="#").timeline-badge
+      em.fa.fa-plus
+  // END timeline item
+// END timeline
