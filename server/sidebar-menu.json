@@ -1,18 +1,23 @@
 [
   {
+    "text": "Stats",
+    "sref": "app.stats",
+    "icon": "icon-graph"
+  },
+  {
     "text": "Summary",
     "sref": "app.summary",
     "icon": "icon-energy"
   },
   {
+    "text": "Data",
+    "sref": "app.data",
+    "icon": "icon-pencil"
+  },
+  {
     "text": "Progress",
     "sref": "app.dashboard_v2",
     "icon": "icon-trophy"
-  },
-  {
-    "text": "Stats",
-    "sref": "app.stats",
-    "icon": "icon-graph"
   },
   {
     "text": "Settings",

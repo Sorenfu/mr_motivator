@@ -39,6 +39,11 @@ App.config(['$stateProvider', '$locationProvider', '$urlRouterProvider', 'RouteH
                 title: 'Summary',
                 templateUrl: helper.basepath('summary.html')
             })
+            .state('app.data', {
+                url: '/data',
+                title: 'Data',
+                templateUrl: helper.basepath('data.html')
+            })
             .state('app.dashboard', {
                 url: '/dashboard',
                 title: 'Dashboard',
