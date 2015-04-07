@@ -1,6 +1,6 @@
 <h3>Timeline</h3>
 <!-- START timeline-->
-<ul ng-class="timelineAlt ? 'timeline-alt' : 'timeline'" ng-init="timelineAlt=false">
+<ul class="timeline-alt">
    <li data-datetime="Today" class="timeline-separator"></li>
    <!-- START timeline item-->
    <li>
@@ -8,7 +8,7 @@
          <em class="fa fa-check"></em>
       </div>
       <div class="timeline-panel">
-         <div ng-class="timelineAlt ? 'right' : 'left'" class="popover">
+         <div class="popover">
             <h4 class="popover-title">Archived goal</h4>
             <div class="arrow"></div>
             <div class="popover-content">
@@ -19,7 +19,7 @@
    </li>
    <!-- END timeline item-->
    <!-- START timeline item-->
-   <li class="timeline-inverted">
+   <li>
       <div class="timeline-badge primary">
          <em class="fa fa-thumbs-o-up"></em>
       </div>
@@ -43,7 +43,7 @@
          <em class="fa fa-close"></em>
       </div>
       <div class="timeline-panel">
-         <div ng-class="timelineAlt ? 'right' : 'left'" class="popover">
+         <div class="popover">
             <h4 class="popover-title">Missed goal</h4>
             <div class="arrow"></div>
             <div class="popover-content">
@@ -57,7 +57,7 @@
    <li data-datetime="2014-05-21" class="timeline-separator"></li>
    <!-- END timeline separator-->
    <!-- START timeline item-->
-   <li class="timeline-inverted">
+   <li>
       <div class="timeline-badge success">
          <em class="fa fa-check"></em>
       </div>
