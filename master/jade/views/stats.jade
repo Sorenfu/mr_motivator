@@ -1,80 +1,47 @@
 h3 My stats
 .row
-  .col-lg-12
-    h4 Today
-    // START widget
-    .panel.widget
-      .row.row-table.row-flush
-        .col-xs-6.bb.br
-          .row.row-table.row-flush
-            .col-xs-4.text-center.text-info
-              em.fa.fa-users.fa-2x
-            .col-xs-8
-              .panel-body.text-center
-                h4.mt0 345
-                p.mb0.text-muted STEPS TAKEN
-        .col-xs-6.bb
-          .row.row-table.row-flush
-            .col-xs-4.text-center.text-danger
-              em.fa.fa-music.fa-2x
-            .col-xs-8
-              .panel-body.text-center
-                h4.mt0 345
-                p.mb0.text-muted STEPS LEFT
-      .row.row-table.row-flush
-        .col-xs-6.br
-          .row.row-table.row-flush
-            .col-xs-4.text-center.text-inverse
-              em.fa.fa-code-fork.fa-2x
-            .col-xs-8
-              .panel-body.text-center
-                h4.mt0 1h 13m
-                p.mb0.text-muted SPENT WALKING
-        .col-xs-6
-          .row.row-table.row-flush
-            .col-xs-4.text-center.text-success
-              em.fa.fa-inbox.fa-2x
-            .col-xs-8
-              .panel-body.text-center
-                h4.mt0 50%
-                p.mb0.text-muted GOAL REACHED
-
-.row
-  .col-lg-12
-    h4 This week
-    // START widget
-    .panel.widget
-      .row.row-table.row-flush
-        .col-xs-6.bb.br
-          .row.row-table.row-flush
-            .col-xs-4.text-center.text-info
-              em.fa.fa-users.fa-2x
-            .col-xs-8
-              .panel-body.text-center
-                h4.mt0 345
-                p.mb0.text-muted STEPS TAKEN
-        .col-xs-6.bb
-          .row.row-table.row-flush
-            .col-xs-4.text-center.text-danger
-              em.fa.fa-music.fa-2x
-            .col-xs-8
-              .panel-body.text-center
-                h4.mt0 345
-                p.mb0.text-muted STEPS LEFT
-      .row.row-table.row-flush
-        .col-xs-6.br
-          .row.row-table.row-flush
-            .col-xs-4.text-center.text-inverse
-              em.fa.fa-code-fork.fa-2x
-            .col-xs-8
-              .panel-body.text-center
-                h4.mt0 1h 13m
-                p.mb0.text-muted SPENT WALKING
-        .col-xs-6
-          .row.row-table.row-flush
-            .col-xs-4.text-center.text-success
-              em.fa.fa-inbox.fa-2x
-            .col-xs-8
-              .panel-body.text-center
-                h4.mt0 50%
-                p.mb0.text-muted GOAL REACHED
+    .col-lg-12
+        h4 Goal archived
+        .progress
+            .progress-bar(role='progressbar', aria-valuenow='50', aria-valuemin='0', aria-valuemax='100', style='width:50%')
+                | 50%
+        // START widget
+        h4 My stats
+        .panel.widget
+            .row.row-table.row-flush
+                .col-xs-6.bb.br
+                    .row.row-table.row-flush
+                        .col-xs-4.text-center.text-info
+                            em.fa.fa-clock-o.fa-2x
+                        .col-xs-8
+                            .panel-body.text-center
+                                h4.mt0 1h 30m
+                                p.mb0.text-muted LEFT OF
+                                    b  3h
+                .col-xs-6.bb
+                    .row.row-table.row-flush
+                        .col-xs-4.text-center.text-danger
+                            em.fa.fa-paw.fa-2x
+                        .col-xs-8
+                            .panel-body.text-center
+                                h4.mt0 1000
+                                p.mb0.text-muted STEPS LEFT OF
+                                    b  2000
+            .row.row-table.row-flush
+                .col-xs-6.br
+                    .row.row-table.row-flush
+                        .col-xs-4.text-center.text-inverse
+                            em.fa.fa-road.fa-2x
+                        .col-xs-8
+                            .panel-body.text-center
+                                h4.mt0 5 km
+                                p.mb0.text-muted LEFT OF
+                                    b  10 km
+                .col-xs-6
+                    .row.row-table.row-flush
+                        .col-xs-4.text-center.text-success
+                            em.fa.fa-tachometer.fa-2x
+                        .col-xs-8
+                            .panel-body.text-center
+                                h4.mt0 6.1 km/h
+                                p.mb0.text-muted AVERAGE SPEED
