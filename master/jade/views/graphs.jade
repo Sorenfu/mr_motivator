@@ -10,40 +10,23 @@ hr
 
 h3 Carousel to hold graphs
   .carousel-demo
-    ul.list-unstyled.carousel2(rn-carousel='', rn-carousel-buffered='')
+    ul.list-unstyled.carousel2(rn-carousel='')
       li
-        h4 Line Chart
-        div(ng-controller='ChartJSController')
-          canvas(linechart='', options='lineOptions', data='lineData', height='600', responsive='false', width='600')
-      li slide 2
+          h4 Graphs 1
+              div(ng-controller='ChartistController')
+                  .panel.panel-default
+                  .panel-body
+                  .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData', chartist-chart-options="smilOptions", chartist-events="smilEvents")
+      li
+        h4 Graphs 2
+              div(ng-controller='ChartistController')
+                  .panel.panel-default
+                  .panel-body
+                  .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData', chartist-chart-options="smilOptions", chartist-events="smilEvents")
 
-h3 Chartist
-  small SIMPLE RESPONSIVE CHARTS
-.container-fluid(ng-controller='ChartistController')
-  .row
-    .col-md-4
-      .panel.panel-default
-        .panel-heading Bar bipolar
-        .panel-body
-          .ct-chart(chartist="", chartist-data='barBipolarData', chartist-chart-type='Bar', chartist-chart-options="barBipolarOptions")
-    .col-md-4
-      .panel.panel-default
-        .panel-heading Bar Horizontal
-        .panel-body
-          .ct-chart(chartist="", chartist-data='barHorizontalData', chartist-chart-type='Bar', chartist-chart-options="barHorizontalOptions")
-    .col-md-4
-      .panel.panel-default
-        .panel-heading Line
-        .panel-body
-          .ct-chart(chartist="", chartist-data='lineData', chartist-chart-type='Line', chartist-chart-options="lineOptions")
-  .row
-    .col-md-6
-      .panel.panel-default
-        .panel-heading Smil Animations
-        .panel-body
-          .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData', chartist-chart-options="smilOptions", chartist-events="smilEvents")
-    .col-md-6
-      .panel.panel-default
-        .panel-heading SVG Path Animations
-        .panel-body
-          .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='pathData', chartist-chart-options="pathOptions", chartist-events="pathEvents")
+      li
+         h4 graphs 3
+             div(ng-controller='ChartistController')
+                 .panel.panel-default
+                 .panel-body
+                 .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData', chartist-chart-options="smilOptions", chartist-events="smilEvents")
