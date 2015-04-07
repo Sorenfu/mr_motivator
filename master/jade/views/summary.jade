@@ -4,8 +4,8 @@ ul(ng-class="timelineAlt ? 'timeline-alt' : 'timeline'", ng-init="timelineAlt=fa
   li.timeline-separator(data-datetime="Today")
   // START timeline item
   li
-    .timeline-badge.primary
-      em.fa.fa-users
+    .timeline-badge.success
+      em.fa.fa-check
     .timeline-panel
       .popover(ng-class="timelineAlt ? 'right' : 'left'")
           h4.popover-title Archived goal
@@ -15,8 +15,8 @@ ul(ng-class="timelineAlt ? 'timeline-alt' : 'timeline'", ng-init="timelineAlt=fa
   // END timeline item
   // START timeline item
   li.timeline-inverted
-    .timeline-badge.warning
-      em.fa.fa-phone
+    .timeline-badge.primary
+      em.fa.fa-thumbs-o-up
     .timeline-panel
       .popover.right
           h4.popover-title Changed goal
@@ -30,7 +30,7 @@ ul(ng-class="timelineAlt ? 'timeline-alt' : 'timeline'", ng-init="timelineAlt=fa
   // START timeline item
   li
     .timeline-badge.danger
-      em.fa.fa-video-camera
+      em.fa.fa-close
     .timeline-panel
       .popover(ng-class="timelineAlt ? 'right' : 'left'")
           h4.popover-title Missed goal
@@ -44,13 +44,13 @@ ul(ng-class="timelineAlt ? 'timeline-alt' : 'timeline'", ng-init="timelineAlt=fa
   // START timeline item
   li.timeline-inverted
     .timeline-badge.success
-      em.fa.fa-music
+      em.fa.fa-check
     .timeline-panel
       .popover.right
-          h4.popover-title Relax
+          h4.popover-title Archived goal
           .arrow
           .popover-content
-            p Listen some music
+            p Completed 1200 steps in 3h 34m
   // END timeline item
   // START timeline item
   li.timeline-end
