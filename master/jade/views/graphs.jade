@@ -2,40 +2,48 @@
 
 h3 Graphs
 .row(ng-controller='ButtonsCtrl')
-    .btn-group
-        label.btn.btn-success(ng-model='radioModel', btn-radio="'Left'", uncheckable='uncheckable') Left
-        label.btn.btn-success(ng-model='radioModel', btn-radio="'Middle'", uncheckable='uncheckable') Middle
-        label.btn.btn-success(ng-model='radioModel', btn-radio="'Right'", uncheckable='uncheckable') Right
+  .btn-group
+    label.btn.btn-success(ng-model='radioModel', btn-radio="'Left'", uncheckable='uncheckable') Left
+    label.btn.btn-success(ng-model='radioModel', btn-radio="'Middle'", uncheckable='uncheckable') Middle
+    label.btn.btn-success(ng-model='radioModel', btn-radio="'Right'", uncheckable='uncheckable') Right
 hr
 
 h3 Carousel to hold graphs
-    .carousel-demo
-        ul.list-unstyled.carousel2(rn-carousel='', rn-carousel-buffered='')
-            li slide 1
-                h4 Line Chart
-            div
-                canvas(linechart='', options='lineOptions', data='lineData', height='120', responsive='true')
-            li slide 2
-            li slide 3
-                .bgimage(ng-style="{'background-image': 'url(' + slide.img + ')'}")
-                    | # {{ slide.id }}
-        .rn-carousel-indicator.custom-indicator
-            span(ng-repeat='slide in slides2', ng-class='{active: $index==$parent.carouselIndex22}', ng-click='$parent.carouselIndex22 = $index') &starf;
+  .carousel-demo
+    ul.list-unstyled.carousel2(rn-carousel='', rn-carousel-buffered='')
+      li
+        h4 Line Chart
+        div(ng-controller='ChartJSController')
+          canvas(linechart='', options='lineOptions', data='lineData', height='600', responsive='false', width='600')
+      li slide 2
 
-
-
-    //.carousel-demo
-    //    ul.list-unstyled.carousel5(rn-carousel='', rn-carousel-index='0')
-    //        li Slide 1
-    //        li Slide 2
-    //        li Slide 3
-    //    .rn-carousel-indicator.custom-indicator
-    //        span(ng-repeat='slide in slides2', ng-class='{active: $index==$parent.carouselIndex22}', ng-click='$parent.carouselIndex22 = $index') &starf;
-
-h3 test graph
-.container-fluid(ng-controller='ChartJSController')
-    .row.mb-lg
-        .col-lg-6
-            h4 Line Chart
-            div
-                canvas(linechart='', options='lineOptions', data='lineData', height='120', responsive='true')
+h3 Chartist
+  small SIMPLE RESPONSIVE CHARTS
+.container-fluid(ng-controller='ChartistController')
+  .row
+    .col-md-4
+      .panel.panel-default
+        .panel-heading Bar bipolar
+        .panel-body
+          .ct-chart(chartist="", chartist-data='barBipolarData', chartist-chart-type='Bar', chartist-chart-options="barBipolarOptions")
+    .col-md-4
+      .panel.panel-default
+        .panel-heading Bar Horizontal
+        .panel-body
+          .ct-chart(chartist="", chartist-data='barHorizontalData', chartist-chart-type='Bar', chartist-chart-options="barHorizontalOptions")
+    .col-md-4
+      .panel.panel-default
+        .panel-heading Line
+        .panel-body
+          .ct-chart(chartist="", chartist-data='lineData', chartist-chart-type='Line', chartist-chart-options="lineOptions")
+  .row
+    .col-md-6
+      .panel.panel-default
+        .panel-heading Smil Animations
+        .panel-body
+          .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData', chartist-chart-options="smilOptions", chartist-events="smilEvents")
+    .col-md-6
+      .panel.panel-default
+        .panel-heading SVG Path Animations
+        .panel-body
+          .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='pathData', chartist-chart-options="pathOptions", chartist-events="pathEvents")

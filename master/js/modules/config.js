@@ -48,7 +48,7 @@ App.config(['$stateProvider', '$locationProvider', '$urlRouterProvider', 'RouteH
                 controller: ["$rootScope", function ($rootScope) {
                     $rootScope.app.layout.isCollapsed = true;
                 }],
-                resolve: helper.resolveFor('flot-chart', 'flot-chart-plugins', 'angular-carousel', 'chartjs')
+                resolve: helper.resolveFor('flot-chart', 'flot-chart-plugins', 'angular-carousel', 'chartjs', 'angular-chartist')
             })
             .state('app.data', {
                 url: '/data',
