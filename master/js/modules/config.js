@@ -40,7 +40,6 @@ App.config(['$stateProvider', '$locationProvider', '$urlRouterProvider', 'RouteH
                 templateUrl: helper.basepath('summary.html')
             })
 
-
             /*GRAPHS PAGE*/
             .state('app.graphs', {
                 url: '/graphs',
@@ -51,7 +50,11 @@ App.config(['$stateProvider', '$locationProvider', '$urlRouterProvider', 'RouteH
                 }],
                 resolve: helper.resolveFor('flot-chart', 'flot-chart-plugins', 'angular-carousel', 'chartjs')
             })
-
+            .state('app.data', {
+                url: '/data',
+                title: 'Data',
+                templateUrl: helper.basepath('data.html')
+            })
             .state('app.dashboard', {
                 url: '/dashboard',
                 title: 'Dashboard',
