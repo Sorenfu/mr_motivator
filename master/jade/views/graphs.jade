@@ -1,0 +1,11 @@
+//
+   Created by casperschultz on 07/04/15.
+h3 Graphs
+.row(ng-controller='ButtonsCtrl')
+    .col-lg-4
+        h4 Checkbox
+        pre {{checkModel}}
+        .btn-group
+            label.btn.btn-primary(ng-model='checkModel.left', btn-checkbox='btn-checkbox') Left
+            label.btn.btn-primary(ng-model='checkModel.middle', btn-checkbox='btn-checkbox') Middle
+            label.btn.btn-primary(ng-model='checkModel.right', btn-checkbox='btn-checkbox') Right
