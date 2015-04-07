@@ -12,7 +12,8 @@
   {
     "text": "Data",
     "sref": "app.data",
-    "icon": "icon-pencil"
+    "icon": "icon-pencil",
+    "alert": "+1"
   },
   {
     "text": "Progress",
