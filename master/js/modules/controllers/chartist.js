@@ -5,68 +5,6 @@
 App.controller('ChartistController', ['$scope', function ($scope) {
   'use strict';
 
-  // Line chart
-  // ----------------------------------- 
-
-  $scope.lineData = {
-    labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-    series: [
-      [12, 9, 7, 8, 5],
-      [2, 1, 3.5, 7, 3],
-      [1, 3, 4, 5, 6]
-    ]
-  };
-
-  $scope.lineOptions = {
-    fullWidth: true,
-    height: 220,
-    chartPadding: {
-      right: 40
-    }
-  };
-
-  // Bar bipolar
-  // ----------------------------------- 
-
-  $scope.barBipolarOptions = {
-    high: 10,
-    low: -10,
-    height: 220,
-    axisX: {
-      labelInterpolationFnc: function(value, index) {
-        return index % 2 === 0 ? value : null;
-      }
-    }
-  };
-  $scope.barBipolarData = {
-    labels: ['W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7', 'W8', 'W9', 'W10'],
-    series: [
-      [1, 2, 4, 8, 6, -2, -1, -4, -6, -2]
-    ]
-  };
-
-
-  // Bar horizontal
-  // ----------------------------------- 
-
-  $scope.barHorizontalData = {
-    labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-    series: [
-      [5, 4, 3, 7, 5, 10, 3],
-      [3, 2, 9, 5, 4, 6, 4]
-    ]
-  };
-
-  $scope.barHorizontalOptions = {
-    seriesBarDistance: 10,
-    reverseData: true,
-    horizontalBars: true,
-    height: 220,
-    axisY: {
-      offset: 70
-    }
-  };
-
   // Smil Animations
   // ----------------------------------- 
 
@@ -78,10 +16,14 @@ App.controller('ChartistController', ['$scope', function ($scope) {
   $scope.smilData = {
     labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
     series: [
-      [12, 9, 7, 8, 5, 4, 6, 2, 3, 3, 4, 6],
-      [4,  5, 3, 7, 3, 5, 5, 3, 4, 4, 5, 5],
-      [5,  3, 4, 5, 6, 3, 3, 4, 5, 6, 3, 4],
       [3,  4, 5, 6, 7, 6, 4, 5, 6, 7, 6, 3]
+    ]
+  };
+
+  $scope.smilData2 = {
+    labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+    series: [
+      [12, 9, 7, 8, 5, 4, 6, 2, 3, 3, 4, 6]
     ]
   };
 
@@ -193,16 +135,7 @@ App.controller('ChartistController', ['$scope', function ($scope) {
 
 
   // SVG PATH animation
-  // ----------------------------------- 
-
-  $scope.pathData = {
-    labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
-    series: [
-      [1, 5, 2, 5, 4, 3],
-      [2, 3, 4, 8, 1, 2],
-      [5, 4, 3, 2, 1, 0.5]
-    ]
-  };
+  // -----------------------------------
 
   $scope.pathOptions = {
     low: 0,

@@ -12,7 +12,7 @@ App.config(['$stateProvider', '$locationProvider', '$urlRouterProvider', 'RouteH
         $locationProvider.html5Mode(false);
 
         // defaults to dashboard
-        $urlRouterProvider.otherwise('/app/dashboard');
+        $urlRouterProvider.otherwise('/app/stats');
 
         //
         // Application Routes
@@ -45,9 +45,6 @@ App.config(['$stateProvider', '$locationProvider', '$urlRouterProvider', 'RouteH
                 url: '/graphs',
                 title: 'graphs',
                 templateUrl: helper.basepath('graphs.html'),
-                controller: ["$rootScope", function ($rootScope) {
-                    $rootScope.app.layout.isCollapsed = true;
-                }],
                 resolve: helper.resolveFor('flot-chart', 'flot-chart-plugins', 'angular-carousel', 'chartjs', 'angular-chartist')
             })
             .state('app.data', {
