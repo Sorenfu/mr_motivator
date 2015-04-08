@@ -100,30 +100,27 @@ App.config(['$stateProvider', '$locationProvider', '$urlRouterProvider', 'RouteH
             .state('app.stats', {
                 url: '/stats',
                 title: 'Stats',
-                templateUrl: helper.basepath('stats.html'),
-                controller: ["$rootScope", function ($rootScope) {
-                    $rootScope.app.layout.isCollapsed = true;
-                }],
-                resolve: helper.resolveFor('flot-chart', 'flot-chart-plugins')
+                templateUrl: helper.basepath('stats.html')
             })
             .state('app.summary', {
                 url: '/summary',
                 title: 'Summary',
                 templateUrl: helper.basepath('summary.html')
             })
-
-            /*GRAPHS PAGE*/
             .state('app.graphs', {
                 url: '/graphs',
-                title: 'graphs',
+                title: 'Graphs',
                 templateUrl: helper.basepath('graphs.html'),
-                resolve: helper.resolveFor('flot-chart', 'flot-chart-plugins', 'angular-carousel', 'chartjs', 'angular-chartist')
+                resolve: helper.resolveFor('angular-carousel', 'angular-chartist')
             })
             .state('app.data', {
                 url: '/data',
                 title: 'Data',
                 templateUrl: helper.basepath('data.html')
             })
+
+
+
             .state('app.dashboard', {
                 url: '/dashboard',
                 title: 'Dashboard',
