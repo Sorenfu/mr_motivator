@@ -5,7 +5,7 @@
 App.controller('ChartistController', ['$scope', function ($scope) {
   'use strict';
 
-  // Line chart
+  /*// Line chart
   // ----------------------------------- 
 
   $scope.lineData = {
@@ -23,9 +23,9 @@ App.controller('ChartistController', ['$scope', function ($scope) {
     chartPadding: {
       right: 40
     }
-  };
+  };*/
 
-  // Bar bipolar
+/*  // Bar bipolar
   // ----------------------------------- 
 
   $scope.barBipolarOptions = {
@@ -65,7 +65,7 @@ App.controller('ChartistController', ['$scope', function ($scope) {
     axisY: {
       offset: 70
     }
-  };
+  };*/
 
   // Smil Animations
   // ----------------------------------- 
@@ -78,14 +78,25 @@ App.controller('ChartistController', ['$scope', function ($scope) {
   $scope.smilData = {
     labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
     series: [
-      [12, 9, 7, 8, 5, 4, 6, 2, 3, 3, 4, 6],
-      [4,  5, 3, 7, 3, 5, 5, 3, 4, 4, 5, 5],
-      [5,  3, 4, 5, 6, 3, 3, 4, 5, 6, 3, 4],
-      [3,  4, 5, 6, 7, 6, 4, 5, 6, 7, 6, 3]
+      [12, 9, 7, 8, 5, 4, 6, 2, 3, 3, 4, 6]
     ]
   };
 
-  $scope.smilOptions = {
+    $scope.smilData2 = {
+        labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+        series: [
+            [5, 5, 8, 4, 5, 2, 6, 1, 1, 1, 4, 6]
+        ]
+    };
+
+    $scope.smilData3 = {
+        labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+        series: [
+            [0, 4, 7, 9, 5, 5, 5, 1, 1, 9, 4, 6]
+        ]
+    };
+
+    $scope.smilOptions = {
     low: 0,
     height: 260
   };
@@ -195,7 +206,7 @@ App.controller('ChartistController', ['$scope', function ($scope) {
   // SVG PATH animation
   // ----------------------------------- 
 
-  $scope.pathData = {
+/*  $scope.pathData = {
     labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
     series: [
       [1, 5, 2, 5, 4, 3],
@@ -226,6 +237,6 @@ App.controller('ChartistController', ['$scope', function ($scope) {
         });
       }
     }
-  };
+  };*/
 
 }]);

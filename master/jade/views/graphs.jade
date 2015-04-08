@@ -12,20 +12,20 @@ h3 Carousel to hold graphs
   .carousel-demo
     ul.list-unstyled.carousel2(rn-carousel='')
       li
-          h4 Graphs 1
+          h4 Steps / Hour
               div(ng-controller='ChartistController')
                   .panel.panel-default
                   .panel-body
                   .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData', chartist-chart-options="smilOptions", chartist-events="smilEvents")
       li
-        h4 Graphs 2
+        h4 Knee measurements / time
               div(ng-controller='ChartistController')
                   .panel.panel-default
                   .panel-body
                   .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData', chartist-chart-options="smilOptions", chartist-events="smilEvents")
 
       li
-         h4 graphs 3
+         h4 Time / Distance
              div(ng-controller='ChartistController')
                  .panel.panel-default
                  .panel-body
