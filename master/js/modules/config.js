@@ -46,6 +46,11 @@ App.config(['$stateProvider', '$locationProvider', '$urlRouterProvider', 'RouteH
                 title: 'Data',
                 templateUrl: helper.basepath('data.html')
             })
+            .state('app.scoreboard', {
+                url: '/scoreboard',
+                title: 'Scoreboard',
+                templateUrl: helper.basepath('scoreboard.html')
+            })
 
 
 

@@ -1,0 +1,37 @@
+h3 Scoreboard
+
+.panel.panel-default
+  .panel-heading
+    | Todays score
+  // START table-responsive
+  .table-responsive
+    table#table-ext-2.table.table-striped.table-bordered.table-hover
+      thead
+        tr
+          th User
+          th Steps today
+      tbody
+        tr
+          td
+            .media
+              a.pull-left(href='#')
+                img.media-object.img-responsive.img-circle(src="app/img/user/01.jpg",alt="")
+              .media-body
+                h4.media-heading Holly Wallace
+          td 1000
+        tr
+          td
+            .media
+              a.pull-left(href='#')
+                img.media-object.img-responsive.img-circle(src="app/img/user/03.jpg",alt="")
+              .media-body
+                h4.media-heading Alexis Foster
+          td 800
+        tr
+          td
+            .media
+              a.pull-left(href='#')
+                img.media-object.img-responsive.img-circle(src="app/img/user/05.jpg",alt="")
+              .media-body
+                h4.media-heading Mario Miles
+          td 15

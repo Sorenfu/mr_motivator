@@ -15156,7 +15156,7 @@ ul.ColVis_collection > li > label input[type=radio]:checked + span {
   width: 5%;
 }
 #table-ext-2 th:nth-child(1) {
-  width: 5%;
+  width: 20%;
 }
 #table-ext-2 th:nth-child(3) {
   width: 10%;

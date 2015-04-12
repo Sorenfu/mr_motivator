@@ -2,7 +2,7 @@
   {
     "text": "Stats",
     "sref": "app.stats",
-    "icon": "icon-graph"
+    "icon": "icon-flag"
   },
   {
     "text": "Summary",
@@ -18,6 +18,11 @@
   {
     "text": "Graphs",
     "sref": "app.graphs",
+    "icon": "icon-graph"
+  },
+  {
+    "text": "Scoreboard",
+    "sref": "app.scoreboard",
     "icon": "icon-trophy"
   }
 ]
