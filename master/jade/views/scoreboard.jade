@@ -1,41 +1,51 @@
 h3 Scoreboard
-
-.panel.panel-default
-  .panel-heading
-    | Todays score
-  // START table-responsive
-  .table-responsive
-    table#table-ext-2.table.table-striped.table-bordered.table-hover
-      thead
-        tr
-          th Rank
-          th User
-          th Steps today
-      tbody
-        tr
-          td 1
-          td
-            .media
-              a.pull-left(href='#')
-                img.media-object.img-responsive.img-circle(src="app/img/user/01.jpg",alt="")
-              .media-body
-                h4.media-heading Holly Wallace
-          td 1000
-        tr
-          td 2
-          td
-            .media
-              a.pull-left(href='#')
-                img.media-object.img-responsive.img-circle(src="app/img/user/03.jpg",alt="")
-              .media-body
-                h4.media-heading Alexis Foster
-          td 800
-        tr
-          td 3
-          td
-            .media
-              a.pull-left(href='#')
-                img.media-object.img-responsive.img-circle(src="app/img/user/05.jpg",alt="")
-              .media-body
-                h4.media-heading Mario Miles
-          td 15
+.row
+  .col-lg-8
+    .panel.panel-default
+      .panel-heading
+        | Todays score
+      // START table-responsive
+      .table-responsive
+        table#table-ext-2.table.table-striped.table-bordered.table-hover
+          thead
+            tr
+              th Rank
+              th User
+              th Steps today
+          tbody
+            tr
+              td 1
+              td
+                .media
+                  a.pull-left(href='#')
+                    img.media-object.img-responsive.img-circle(src="app/img/user/01.jpg",alt="")
+                  .media-body
+                    h4.media-heading Holly Wallace
+              td 1000
+            tr
+              td 2
+              td
+                .media
+                  a.pull-left(href='#')
+                    img.media-object.img-responsive.img-circle(src="app/img/user/02.jpg",alt="")
+                  .media-body
+                    h4.media-heading Alexis Foster
+              td 800
+            tr
+              td 3
+              td
+                .media
+                  a.pull-left(href='#')
+                    img.media-object.img-responsive.img-circle(src="app/img/user/03.jpg",alt="")
+                  .media-body
+                    h4.media-heading Me
+              td 120
+            tr
+              td 4
+              td
+                .media
+                  a.pull-left(href='#')
+                    img.media-object.img-responsive.img-circle(src="app/img/user/04.jpg",alt="")
+                  .media-body
+                    h4.media-heading George Jones
+              td 15

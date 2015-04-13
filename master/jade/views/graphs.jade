@@ -2,19 +2,22 @@
 
 h3 Graphs
 .row(ng-controller='ButtonsCtrl')
-  .btn-group.btn-group-justified
-    label.btn.btn-primary(ng-model='radioModel', btn-radio="'Day'", uncheckable='uncheckable') Day
-    label.btn.btn-primary(ng-model='radioModel', btn-radio="'Week'", uncheckable='uncheckable') Week
-    label.btn.btn-primary(ng-model='radioModel', btn-radio="'Month'", uncheckable='uncheckable') Month
-    label.btn.btn-primary(ng-model='radioModel', btn-radio="'Year'", uncheckable='uncheckable') Year
+  .col-md-12
+    .btn-group.btn-group-justified
+      label.btn.btn-primary(ng-model='radioModel', btn-radio="'Day'", uncheckable='uncheckable') Day
+      label.btn.btn-primary(ng-model='radioModel', btn-radio="'Week'", uncheckable='uncheckable') Week
+      label.btn.btn-primary(ng-model='radioModel', btn-radio="'Month'", uncheckable='uncheckable') Month
+      label.btn.btn-primary(ng-model='radioModel', btn-radio="'Year'", uncheckable='uncheckable') Year
 hr
 
 h3 Carousel to hold graphs
-  .carousel-demo(ng-controller='ChartistController')
-    ul.list-unstyled.carousel2(rn-carousel='')
-      li
-        div
-          .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData', chartist-chart-options="smilOptions", chartist-events="smilEvents")
-      li
-        div
-          .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData2', chartist-chart-options="smilOptions", chartist-events="smilEvents")
+  .row
+    .col-md-12
+      .carousel-demo(ng-controller='ChartistController')
+        ul.list-unstyled.carousel2(rn-carousel='')
+          li
+            div
+              .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData', chartist-chart-options="smilOptions", chartist-events="smilEvents")
+          li
+            div
+              .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData2', chartist-chart-options="smilOptions", chartist-events="smilEvents")

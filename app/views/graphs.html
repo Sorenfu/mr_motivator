@@ -1,27 +1,33 @@
 <!--Created by casperschultz on 07/04/15.-->
 <h3>Graphs</h3>
 <div ng-controller="ButtonsCtrl" class="row">
-   <div class="btn-group btn-group-justified">
-      <label ng-model="radioModel" btn-radio="'Day'" uncheckable="uncheckable" class="btn btn-primary">Day</label>
-      <label ng-model="radioModel" btn-radio="'Week'" uncheckable="uncheckable" class="btn btn-primary">Week</label>
-      <label ng-model="radioModel" btn-radio="'Month'" uncheckable="uncheckable" class="btn btn-primary">Month</label>
-      <label ng-model="radioModel" btn-radio="'Year'" uncheckable="uncheckable" class="btn btn-primary">Year</label>
+   <div class="col-md-12">
+      <div class="btn-group btn-group-justified">
+         <label ng-model="radioModel" btn-radio="'Day'" uncheckable="uncheckable" class="btn btn-primary">Day</label>
+         <label ng-model="radioModel" btn-radio="'Week'" uncheckable="uncheckable" class="btn btn-primary">Week</label>
+         <label ng-model="radioModel" btn-radio="'Month'" uncheckable="uncheckable" class="btn btn-primary">Month</label>
+         <label ng-model="radioModel" btn-radio="'Year'" uncheckable="uncheckable" class="btn btn-primary">Year</label>
+      </div>
    </div>
 </div>
 <hr/>
 <h3>Carousel to hold graphs
-   <div ng-controller="ChartistController" class="carousel-demo">
-      <ul rn-carousel="" class="list-unstyled carousel2">
-         <li>
-            <div>
-               <div chartist="" chartist-chart-type="Line" chartist-data="smilData" chartist-chart-options="smilOptions" chartist-events="smilEvents" class="ct-chart"></div>
-            </div>
-         </li>
-         <li>
-            <div>
-               <div chartist="" chartist-chart-type="Line" chartist-data="smilData2" chartist-chart-options="smilOptions" chartist-events="smilEvents" class="ct-chart"></div>
-            </div>
-         </li>
-      </ul>
+   <div class="row">
+      <div class="col-md-12">
+         <div ng-controller="ChartistController" class="carousel-demo">
+            <ul rn-carousel="" class="list-unstyled carousel2">
+               <li>
+                  <div>
+                     <div chartist="" chartist-chart-type="Line" chartist-data="smilData" chartist-chart-options="smilOptions" chartist-events="smilEvents" class="ct-chart"></div>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <div chartist="" chartist-chart-type="Line" chartist-data="smilData2" chartist-chart-options="smilOptions" chartist-events="smilEvents" class="ct-chart"></div>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
    </div>
 </h3>
