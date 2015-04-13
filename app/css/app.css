@@ -7500,7 +7500,8 @@ body {
 }
 .topnavbar .navbar-header .brand-logo {
   display: block;
-  padding: 10px 15px;
+  padding: 6px 15px;
+  width: 100px;
 }
 .topnavbar .navbar-header .brand-logo-collapsed {
   display: none;
