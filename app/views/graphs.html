@@ -1,5 +1,6 @@
 <!--Created by casperschultz on 07/04/15.-->
 <h3>Graphs</h3>
+<h4>Time interval</h4>
 <div ng-controller="ButtonsCtrl" class="row">
    <div class="col-md-12">
       <div class="btn-group btn-group-justified">
@@ -11,23 +12,26 @@
    </div>
 </div>
 <hr/>
-<h3>Carousel to hold graphs
+<h4>My graphs
    <div class="row">
       <div class="col-md-12">
          <div ng-controller="ChartistController" class="carousel-demo">
-            <ul rn-carousel="" class="list-unstyled carousel2">
+            <ul ng-controller="GraphsCarouselController" rn-carousel="" rn-carousel-index="carouselIndex" class="list-unstyled carousel2">
                <li>
                   <div>
+                     <h4>Steps per day</h4>
                      <div chartist="" chartist-chart-type="Line" chartist-data="smilData" chartist-chart-options="smilOptions" chartist-events="smilEvents" class="ct-chart"></div>
                   </div>
                </li>
                <li>
                   <div>
+                     <h4>Time per 100 steps</h4>
                      <div chartist="" chartist-chart-type="Line" chartist-data="smilData2" chartist-chart-options="smilOptions" chartist-events="smilEvents" class="ct-chart"></div>
                   </div>
                </li>
             </ul>
+            <div rn-carousel-indicators="" rn-carousel-index="carouselIndex" slides="[0,1]"></div>
          </div>
       </div>
    </div>
-</h3>
+</h4>

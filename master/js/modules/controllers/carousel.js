@@ -17,7 +17,7 @@ App.controller('AngularCarouselController', function($scope) {
       target.push(getSlide(target, style));
   }
 
-  $scope.carouselIndex = 3;
+  $scope.carouselIndex = 0;
   $scope.carouselIndex2 = 0;
   $scope.carouselIndex2 = 1;
   $scope.carouselIndex3 = 5;

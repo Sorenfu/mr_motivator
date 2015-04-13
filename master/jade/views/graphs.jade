@@ -1,6 +1,7 @@
 //Created by casperschultz on 07/04/15.
 
 h3 Graphs
+h4 Time interval
 .row(ng-controller='ButtonsCtrl')
   .col-md-12
     .btn-group.btn-group-justified
@@ -10,14 +11,17 @@ h3 Graphs
       label.btn.btn-primary(ng-model='radioModel', btn-radio="'Year'", uncheckable='uncheckable') Year
 hr
 
-h3 Carousel to hold graphs
+h4 My graphs
   .row
     .col-md-12
       .carousel-demo(ng-controller='ChartistController')
-        ul.list-unstyled.carousel2(rn-carousel='')
+        ul.list-unstyled.carousel2(ng-controller="GraphsCarouselController", rn-carousel='', rn-carousel-index="carouselIndex")
           li
             div
+              h4 Steps per day
               .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData', chartist-chart-options="smilOptions", chartist-events="smilEvents")
           li
             div
+              h4 Time per 100 steps
               .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData2', chartist-chart-options="smilOptions", chartist-events="smilEvents")
+        div(rn-carousel-indicators='', rn-carousel-index='carouselIndex', slides="[0,1]")

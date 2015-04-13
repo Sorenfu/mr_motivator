@@ -1179,7 +1179,7 @@ App.controller('AngularCarouselController', ["$scope", function($scope) {
       target.push(getSlide(target, style));
   }
 
-  $scope.carouselIndex = 3;
+  $scope.carouselIndex = 0;
   $scope.carouselIndex2 = 0;
   $scope.carouselIndex2 = 1;
   $scope.carouselIndex3 = 5;
@@ -3037,6 +3037,10 @@ App.controller('FormxEditableController', ['$scope', 'editableOptions', 'editabl
     $scope.states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Dakota', 'North Carolina', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming'];
 
 }]);
+App.controller('GraphsCarouselController', ["$scope", function ($scope) {
+    $scope.carouselIndex = 0;
+}]);
+
 /**=========================================================
  * Module: calendar-ui.js
  * This script handle the calendar demo with draggable 
