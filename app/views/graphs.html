@@ -3,20 +3,28 @@
 <h4>Time interval</h4>
 <div ng-controller="ButtonsCtrl" class="row">
    <div class="col-md-12">
-      <div class="btn-group btn-group-justified">
-         <label ng-model="radioModel" btn-radio="'Day'" uncheckable="uncheckable" class="btn btn-primary">Day</label>
-         <label ng-model="radioModel" btn-radio="'Week'" uncheckable="uncheckable" class="btn btn-primary">Week</label>
-         <label ng-model="radioModel" btn-radio="'Month'" uncheckable="uncheckable" class="btn btn-primary">Month</label>
-         <label ng-model="radioModel" btn-radio="'Year'" uncheckable="uncheckable" class="btn btn-primary">Year</label>
+      <div class="btn-group-justified btn-group">
+         <div class="btn-group">
+            <label ng-model="radioModel" btn-radio="'Day'" class="btn btn-primary">Day</label>
+         </div>
+         <div class="btn-group">
+            <label ng-model="radioModel" btn-radio="'Week'" class="btn btn-primary">Week</label>
+         </div>
+         <div class="btn-group">
+            <label ng-model="radioModel" btn-radio="'Month'" class="btn btn-primary">Month</label>
+         </div>
+         <div class="btn-group">
+            <label ng-model="radioModel" btn-radio="'Year'" class="btn btn-primary">Year</label>
+         </div>
       </div>
    </div>
 </div>
 <hr/>
 <h4>My graphs
    <div class="row">
-      <div class="col-md-12">
+      <div ng-controller="GraphsCarouselController" class="col-md-12">
          <div ng-controller="ChartistController" class="carousel-demo">
-            <ul ng-controller="GraphsCarouselController" rn-carousel="" rn-carousel-index="carouselIndex" class="list-unstyled carousel2">
+            <ul rn-carousel="" rn-carousel-index="carouselIndex" class="list-unstyled carousel2">
                <li>
                   <div>
                      <h4>Steps per day</h4>

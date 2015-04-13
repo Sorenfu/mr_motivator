@@ -4,18 +4,22 @@ h3 Graphs
 h4 Time interval
 .row(ng-controller='ButtonsCtrl')
   .col-md-12
-    .btn-group.btn-group-justified
-      label.btn.btn-primary(ng-model='radioModel', btn-radio="'Day'", uncheckable='uncheckable') Day
-      label.btn.btn-primary(ng-model='radioModel', btn-radio="'Week'", uncheckable='uncheckable') Week
-      label.btn.btn-primary(ng-model='radioModel', btn-radio="'Month'", uncheckable='uncheckable') Month
-      label.btn.btn-primary(ng-model='radioModel', btn-radio="'Year'", uncheckable='uncheckable') Year
+    .btn-group-justified.btn-group
+      .btn-group
+        label.btn.btn-primary(ng-model='radioModel', btn-radio="'Day'") Day
+      .btn-group
+        label.btn.btn-primary(ng-model='radioModel', btn-radio="'Week'") Week
+      .btn-group
+        label.btn.btn-primary(ng-model='radioModel', btn-radio="'Month'") Month
+      .btn-group
+        label.btn.btn-primary(ng-model='radioModel', btn-radio="'Year'") Year
 hr
 
 h4 My graphs
   .row
-    .col-md-12
+    .col-md-12(ng-controller="GraphsCarouselController")
       .carousel-demo(ng-controller='ChartistController')
-        ul.list-unstyled.carousel2(ng-controller="GraphsCarouselController", rn-carousel='', rn-carousel-index="carouselIndex")
+        ul.list-unstyled.carousel2(rn-carousel='', rn-carousel-index="carouselIndex")
           li
             div
               h4 Steps per day
