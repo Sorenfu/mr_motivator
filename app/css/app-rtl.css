@@ -8841,13 +8841,7 @@ body {
 }
 
 .layout-fixed .wrapper > section {
-  margin-top: 115px;
-}
-
-@media only screen and (min-width: 768px) {
-  .layout-fixed .wrapper > section {
-    margin-top: 55px;
-  }
+  margin-top: 55px;
 }
 
 @media only screen and (min-width: 992px) {
@@ -9148,6 +9142,10 @@ body {
    Component: top-navbar.less
  ========================================================================== */
 
+.navbar-nav {
+  margin: 0;
+}
+
 .topnavbar {
   -webkit-backface-visibility: hidden;
   /* fixes chrome jump */
@@ -9160,7 +9158,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   .topnavbar .navbar-header {
-    width: 220px;
+    width: 100px;
     text-align: center;
   }
 
@@ -9336,7 +9334,7 @@ body {
 
 @media only screen and (min-width: 768px) {
   .topnavbar .navbar-form {
-    right: 220px;
+    right: 100px;
   }
 }
 
@@ -9436,11 +9434,11 @@ body {
   }
 
   .aside-collapsed .topnavbar .navbar-header {
-    width: 70px;
+    width: 100px;
   }
 
   .aside-collapsed .topnavbar .navbar-form {
-    right: 70px;
+    right: 100px;
   }
 }
 

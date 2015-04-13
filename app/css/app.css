@@ -7209,12 +7209,7 @@ body {
   bottom: 0;
 }
 .layout-fixed .wrapper > section {
-  margin-top: 115px;
-}
-@media only screen and (min-width: 768px) {
-  .layout-fixed .wrapper > section {
-    margin-top: 55px;
-  }
+  margin-top: 55px;
 }
 @media only screen and (min-width: 992px) {
   .layout-boxed {
@@ -7455,6 +7450,9 @@ body {
 /* ========================================================================
    Component: top-navbar.less
  ========================================================================== */
+.navbar-nav {
+  margin: 0;
+}
 .topnavbar {
   -webkit-backface-visibility: hidden;
   /* fixes chrome jump */
@@ -7466,7 +7464,7 @@ body {
 }
 @media only screen and (min-width: 768px) {
   .topnavbar .navbar-header {
-    width: 220px;
+    width: 100px;
     text-align: center;
   }
   .topnavbar .navbar-header .navbar-brand {
@@ -7616,7 +7614,7 @@ body {
 }
 @media only screen and (min-width: 768px) {
   .topnavbar .navbar-form {
-    left: 220px;
+    left: 100px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -7699,10 +7697,10 @@ body {
     display: block;
   }
   .aside-collapsed .topnavbar .navbar-header {
-    width: 70px;
+    width: 100px;
   }
   .aside-collapsed .topnavbar .navbar-form {
-    left: 70px;
+    left: 100px;
   }
 }
 /* ========================================================================
