@@ -26,6 +26,10 @@ h4 My graphs
               .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData', chartist-chart-options="smilOptions")
           li
             div
-              h4 Time per 100 steps
+              h4 Time per 10 steps
               .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData2', chartist-chart-options="smilOptions")
-        div(rn-carousel-indicators='', rn-carousel-index='carouselIndex', slides="[0,1]")
+          li
+            div
+              h4 Knee measurement
+              .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData3', chartist-chart-options="smilOptions")
+        div(rn-carousel-indicators='', rn-carousel-index='carouselIndex', slides="[0,1,2]")

@@ -1,0 +1,98 @@
+[ {
+  "date" : "20140401",
+  "segments" : [ {
+    "type" : "place",
+    "startTime" : "20140331T225443+0200",
+    "endTime" : "20140401T123729+0200",
+    "place" : {
+      "id" : 188496702,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.66929,
+        "lon" : 12.56912
+      }
+    },
+    "lastUpdate" : "20140401T190900Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140401T125246+0200",
+    "endTime" : "20140401T130551+0200",
+    "place" : {
+      "id" : 188529903,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.76865,
+        "lon" : 12.50337
+      }
+    },
+    "lastUpdate" : "20140401T190900Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140401T132231+0200",
+    "endTime" : "20140401T144246+0200",
+    "place" : {
+      "id" : 188589436,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.78485,
+        "lon" : 12.51914
+      }
+    },
+    "lastUpdate" : "20140401T190900Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140401T151820+0200",
+    "endTime" : "20140401T184817+0200",
+    "place" : {
+      "id" : 188034388,
+      "name" : "DataFlight Europe A/S",
+      "type" : "work",
+      "location" : {
+        "lat" : 55.87031,
+        "lon" : 12.3855
+      }
+    },
+    "lastUpdate" : "20140518T213339Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140401T192830+0200",
+    "endTime" : "20140401T210737+0200",
+    "place" : {
+      "id" : 187754601,
+      "name" : "Hindegade 5",
+      "type" : "home",
+      "location" : {
+        "lat" : 55.68614,
+        "lon" : 12.58799
+      }
+    },
+    "lastUpdate" : "20140402T075344Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140401T211628+0200",
+    "endTime" : "20140401T212351+0200",
+    "place" : {
+      "id" : 188737467,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.68354,
+        "lon" : 12.59537
+      }
+    },
+    "lastUpdate" : "20140402T100632Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140401T212724+0200",
+    "endTime" : "20140402T003759+0200",
+    "place" : {
+      "id" : 188760579,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.68462,
+        "lon" : 12.59324
+      }
+    },
+    "lastUpdate" : "20140402T100632Z"
+  } ],
+  "lastUpdate" : "20140518T213339Z"
+} ]

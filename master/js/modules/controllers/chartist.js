@@ -15,36 +15,54 @@ App.controller('ChartistController', ['$scope', function ($scope) {
     // Let's put a sequence number aside so we can use it in the event callbacks
     var seq = 0,
         delays = 80,
-        durations = 300,
-        weeklabels = [];
+        weeklabels = [],
+        duration_per_step = [];
+
+    var steps = [9218, 7583, 7564, 7055, 4646, 3305, 6047, 2178];
+    var durations = [7603, 5588, 5683, 5445, 3648, 3139, 5290, 1777];
+    var knee_measurements = [44.2, 44.3];
+
     for (var i = 0; i < 7; i++) {
         var today = new Date();
-        var weekday = new Date(today.getTime() + 24*60*60*1000*i);
+        var weekday = new Date(today.getTime() + 24 * 60 * 60 * 1000 * i);
         weeklabels[i] = dayOfWeekAsString(weekday.getDay());
+    }
+
+    for (var i = 0; i < durations.length; i++) {
+        duration_per_step[i] = steps[i] / durations[i] * 10;
     }
 
     $scope.smilData = {
         labels: weeklabels,
         series: [
             {
-                data: [3, 4, 5, 6, 7, 6, 4, 5, 6, 7, 6, 3],
+                data: steps,
                 className: 'ct-series-a'
             }
         ]
     };
 
     $scope.smilData2 = {
-        labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+        labels: weeklabels,
         series: [
             {
-                data: [12, 9, 7, 8, 5, 4, 6, 2, 3, 3, 4, 6],
+                data: duration_per_step,
+                className: 'ct-series-c'
+            }
+        ]
+    };
+
+    $scope.smilData3 = {
+        labels: weeklabels,
+        series: [
+            {
+                data: knee_measurements,
                 className: 'ct-series-c'
             }
         ]
     };
 
     $scope.smilOptions = {
-        low: 0,
         height: 260
     };
 

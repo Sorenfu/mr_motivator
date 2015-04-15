@@ -1,0 +1,51 @@
+[ {
+  "date" : "20140329",
+  "summary" : [ {
+    "activity" : "walking",
+    "group" : "walking",
+    "duration" : 238.0,
+    "distance" : 199.0,
+    "steps" : 314,
+    "calories" : 12
+  } ],
+  "caloriesIdle" : 1790,
+  "lastUpdate" : "20140330T104455Z"
+}, {
+  "date" : "20140330",
+  "summary" : [ {
+    "activity" : "walking",
+    "group" : "walking",
+    "duration" : 7603.0,
+    "distance" : 7428.0,
+    "steps" : 9218,
+    "calories" : 462
+  }, {
+    "activity" : "transport",
+    "group" : "transport",
+    "duration" : 6664.0,
+    "distance" : 81111.0
+  }, {
+    "activity" : "cleaning",
+    "duration" : 14400.0,
+    "calories" : 597
+  } ],
+  "caloriesIdle" : 1715,
+  "lastUpdate" : "20140518T213339Z"
+}, {
+  "date" : "20140331",
+  "summary" : [ {
+    "activity" : "walking",
+    "group" : "walking",
+    "duration" : 5588.0,
+    "distance" : 5822.0,
+    "steps" : 7583,
+    "calories" : 362
+  }, {
+    "activity" : "transport",
+    "group" : "transport",
+    "duration" : 592.0,
+    "distance" : 681.0
+  } ],
+  "caloriesIdle" : 1790,
+  "lastUpdate" : "20140401T190900Z"
+} ]

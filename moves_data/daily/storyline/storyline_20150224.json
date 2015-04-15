@@ -1,0 +1,31 @@
+[ {
+  "date" : "20150224",
+  "summary" : [ {
+    "activity" : "walking",
+    "group" : "walking",
+    "duration" : 2707.0,
+    "distance" : 1354.0,
+    "steps" : 2707,
+    "calories" : 84
+  } ],
+  "segments" : [ {
+    "type" : "move",
+    "startTime" : "20150223T071530+0100",
+    "endTime" : "20150224T084533+0100",
+    "activities" : [ {
+      "activity" : "walking",
+      "group" : "walking",
+      "manual" : false,
+      "startTime" : "20150224T000000+0100",
+      "endTime" : "20150224T004507+0100",
+      "duration" : 2707.0,
+      "distance" : 1354.0,
+      "steps" : 2707,
+      "calories" : 84,
+      "trackPoints" : [ ]
+    } ],
+    "lastUpdate" : "20150225T091539Z"
+  } ],
+  "caloriesIdle" : 1790,
+  "lastUpdate" : "20150225T091539Z"
+} ]

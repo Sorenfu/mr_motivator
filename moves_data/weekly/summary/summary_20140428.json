@@ -1,0 +1,35 @@
+[ {
+  "date" : "20140428",
+  "summary" : [ {
+    "activity" : "walking",
+    "group" : "walking",
+    "duration" : 5067.0,
+    "distance" : 5700.0,
+    "steps" : 7195,
+    "calories" : 354
+  }, {
+    "activity" : "transport",
+    "group" : "transport",
+    "duration" : 1765.0,
+    "distance" : 12758.0
+  } ],
+  "caloriesIdle" : 1790,
+  "lastUpdate" : "20140518T213339Z"
+}, {
+  "date" : "20140429",
+  "summary" : [ {
+    "activity" : "walking",
+    "group" : "walking",
+    "duration" : 798.0,
+    "distance" : 628.0,
+    "steps" : 945,
+    "calories" : 39
+  }, {
+    "activity" : "transport",
+    "group" : "transport",
+    "duration" : 586.0,
+    "distance" : 2442.0
+  } ],
+  "caloriesIdle" : 1790,
+  "lastUpdate" : "20140429T081509Z"
+} ]

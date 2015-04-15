@@ -1,0 +1,72 @@
+[ {
+  "date" : "20140425",
+  "segments" : [ {
+    "type" : "place",
+    "startTime" : "20140425T154617+0200",
+    "endTime" : "20140425T165142+0200",
+    "place" : {
+      "id" : 187754601,
+      "name" : "Hindegade 5",
+      "type" : "home",
+      "location" : {
+        "lat" : 55.68614,
+        "lon" : 12.58799
+      }
+    },
+    "lastUpdate" : "20140425T185218Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140425T175209+0200",
+    "endTime" : "20140425T200533+0200",
+    "place" : {
+      "id" : 196058505,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.8593242391,
+        "lon" : 12.5639078694
+      }
+    },
+    "lastUpdate" : "20140425T194738Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140425T200711+0200",
+    "endTime" : "20140425T204449+0200",
+    "place" : {
+      "id" : 196096860,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.8581567663,
+        "lon" : 12.5646857499
+      }
+    },
+    "lastUpdate" : "20140425T194738Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140425T212250+0200",
+    "endTime" : "20140425T215037+0200",
+    "place" : {
+      "id" : 188474731,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.6854,
+        "lon" : 12.58685
+      }
+    },
+    "lastUpdate" : "20140425T222211Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140425T215038+0200",
+    "endTime" : "20140425T230453+0200",
+    "place" : {
+      "id" : 187754601,
+      "name" : "Hindegade 5",
+      "type" : "home",
+      "location" : {
+        "lat" : 55.68614,
+        "lon" : 12.58799
+      }
+    },
+    "lastUpdate" : "20140426T091836Z"
+  } ],
+  "lastUpdate" : "20140426T091836Z"
+} ]

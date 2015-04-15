@@ -1,0 +1,13 @@
+[ {
+  "date" : "20150219",
+  "summary" : [ {
+    "activity" : "walking",
+    "group" : "walking",
+    "duration" : 18.0,
+    "distance" : 12.0,
+    "steps" : 24,
+    "calories" : 1
+  } ],
+  "caloriesIdle" : 1790,
+  "lastUpdate" : "20150223T011549Z"
+} ]

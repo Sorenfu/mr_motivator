@@ -17185,7 +17185,7 @@ x:-o-prefocus,
 }
 
 ul[rn-carousel] {
-  height: 380px;
+  height: 300px;
   width: 100%;
   margin: 0 auto;
   cursor: pointer;
@@ -17228,8 +17228,8 @@ ul[rn-carousel] {
   display: inline-block;
   text-indent: -999px;
   overflow: hidden;
-  background-color: #3a3f51;
-  border: 1px solid #232735;
+  background-color: #dde6e9;
+  border: 1px solid #becfd5;
   width: 10px;
   height: 10px;
   margin: 0 1px;
@@ -17237,8 +17237,8 @@ ul[rn-carousel] {
 }
 
 .rn-carousel-indicator span.active {
-  background-color: #dde6e9;
-  border: 1px solid #becfd5;
+  background-color: #3a3f51;
+  border: 1px solid #232735;
 }
 
 .custom-indicator span {

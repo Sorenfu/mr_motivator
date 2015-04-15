@@ -1,0 +1,32 @@
+[ {
+  "date" : "20141024",
+  "segments" : [ {
+    "type" : "place",
+    "startTime" : "20141023T144138+0200",
+    "endTime" : "20141024T153945+0200",
+    "place" : {
+      "id" : 187754601,
+      "name" : "Hindegade 5",
+      "type" : "home",
+      "location" : {
+        "lat" : 55.68614,
+        "lon" : 12.58799
+      }
+    },
+    "lastUpdate" : "20141024T152556Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20141024T154045+0200",
+    "endTime" : "20141024T162759+0200",
+    "place" : {
+      "id" : 271508332,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.6862883002,
+        "lon" : 12.5879287192
+      }
+    },
+    "lastUpdate" : "20141024T152556Z"
+  } ],
+  "lastUpdate" : "20141024T152556Z"
+} ]

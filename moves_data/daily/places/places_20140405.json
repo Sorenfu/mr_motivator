@@ -1,0 +1,19 @@
+[ {
+  "date" : "20140405",
+  "segments" : [ {
+    "type" : "place",
+    "startTime" : "20140404T210537+0200",
+    "endTime" : "20140406T014100+0200",
+    "place" : {
+      "id" : 187754601,
+      "name" : "Hindegade 5",
+      "type" : "home",
+      "location" : {
+        "lat" : 55.68614,
+        "lon" : 12.58799
+      }
+    },
+    "lastUpdate" : "20140406T020821Z"
+  } ],
+  "lastUpdate" : "20140406T020821Z"
+} ]

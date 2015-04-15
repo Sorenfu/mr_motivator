@@ -1,0 +1,22 @@
+[ {
+  "date" : "20140521",
+  "summary" : [ {
+    "activity" : "walking",
+    "group" : "walking",
+    "duration" : 4430.0,
+    "distance" : 4721.0,
+    "steps" : 5994,
+    "calories" : 293
+  }, {
+    "activity" : "transport",
+    "group" : "transport",
+    "duration" : 5404.0,
+    "distance" : 65535.0
+  }, {
+    "activity" : "cleaning",
+    "duration" : 3600.0,
+    "calories" : 149
+  } ],
+  "caloriesIdle" : 1790,
+  "lastUpdate" : "20140522T225112Z"
+} ]

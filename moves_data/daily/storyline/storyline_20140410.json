@@ -1,0 +1,314 @@
+[ {
+  "date" : "20140410",
+  "summary" : [ {
+    "activity" : "walking",
+    "group" : "walking",
+    "duration" : 6125.0,
+    "distance" : 6724.0,
+    "steps" : 8743,
+    "calories" : 418
+  }, {
+    "activity" : "transport",
+    "group" : "transport",
+    "duration" : 2000.0,
+    "distance" : 3585.0
+  } ],
+  "segments" : [ {
+    "type" : "place",
+    "startTime" : "20140409T213311+0200",
+    "endTime" : "20140410T131328+0200",
+    "place" : {
+      "id" : 187754601,
+      "name" : "Hindegade 5",
+      "type" : "home",
+      "location" : {
+        "lat" : 55.68614,
+        "lon" : 12.58799
+      }
+    },
+    "activities" : [ {
+      "activity" : "walking",
+      "group" : "walking",
+      "manual" : false,
+      "startTime" : "20140410T022521+0200",
+      "endTime" : "20140410T022633+0200",
+      "duration" : 72.0,
+      "distance" : 41.0,
+      "steps" : 82,
+      "calories" : 3,
+      "trackPoints" : [ ]
+    }, {
+      "activity" : "walking",
+      "group" : "walking",
+      "manual" : false,
+      "startTime" : "20140410T112724+0200",
+      "endTime" : "20140410T112820+0200",
+      "duration" : 56.0,
+      "distance" : 28.0,
+      "steps" : 52,
+      "calories" : 2,
+      "trackPoints" : [ ]
+    }, {
+      "activity" : "walking",
+      "group" : "walking",
+      "manual" : false,
+      "startTime" : "20140410T120525+0200",
+      "endTime" : "20140410T122602+0200",
+      "duration" : 1237.0,
+      "distance" : 1417.0,
+      "steps" : 1889,
+      "calories" : 88,
+      "trackPoints" : [ ]
+    }, {
+      "activity" : "walking",
+      "group" : "walking",
+      "manual" : false,
+      "startTime" : "20140410T130318+0200",
+      "endTime" : "20140410T130419+0200",
+      "duration" : 61.0,
+      "distance" : 36.0,
+      "steps" : 71,
+      "calories" : 2,
+      "trackPoints" : [ ]
+    } ],
+    "lastUpdate" : "20140410T232940Z"
+  }, {
+    "type" : "move",
+    "startTime" : "20140410T131328+0200",
+    "endTime" : "20140410T133008+0200",
+    "activities" : [ {
+      "activity" : "transport",
+      "group" : "transport",
+      "manual" : false,
+      "startTime" : "20140410T131328+0200",
+      "endTime" : "20140410T133008+0200",
+      "duration" : 1000.0,
+      "distance" : 1797.0,
+      "trackPoints" : [ {
+        "lat" : 55.68614,
+        "lon" : 12.58799,
+        "time" : "20140410T131328+0200"
+      }, {
+        "lat" : 55.6721368279,
+        "lon" : 12.5858542381,
+        "time" : "20140410T133008+0200"
+      } ]
+    } ],
+    "lastUpdate" : "20140410T232940Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140410T133008+0200",
+    "endTime" : "20140410T210654+0200",
+    "place" : {
+      "id" : 191277415,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.6721368279,
+        "lon" : 12.5858542381
+      }
+    },
+    "activities" : [ {
+      "activity" : "walking",
+      "group" : "walking",
+      "manual" : false,
+      "startTime" : "20140410T133214+0200",
+      "endTime" : "20140410T133311+0200",
+      "duration" : 57.0,
+      "distance" : 38.0,
+      "steps" : 76,
+      "calories" : 2,
+      "trackPoints" : [ ]
+    }, {
+      "activity" : "walking",
+      "group" : "walking",
+      "manual" : false,
+      "startTime" : "20140410T140009+0200",
+      "endTime" : "20140410T140304+0200",
+      "duration" : 175.0,
+      "distance" : 142.0,
+      "steps" : 189,
+      "calories" : 9,
+      "trackPoints" : [ ]
+    }, {
+      "activity" : "walking",
+      "group" : "walking",
+      "manual" : false,
+      "startTime" : "20140410T150109+0200",
+      "endTime" : "20140410T151803+0200",
+      "duration" : 1014.0,
+      "distance" : 925.0,
+      "steps" : 1233,
+      "calories" : 57,
+      "trackPoints" : [ ]
+    }, {
+      "activity" : "walking",
+      "group" : "walking",
+      "manual" : false,
+      "startTime" : "20140410T160000+0200",
+      "endTime" : "20140410T161233+0200",
+      "duration" : 753.0,
+      "distance" : 750.0,
+      "steps" : 1000,
+      "calories" : 47,
+      "trackPoints" : [ ]
+    }, {
+      "activity" : "walking",
+      "group" : "walking",
+      "manual" : false,
+      "startTime" : "20140410T170109+0200",
+      "endTime" : "20140410T170513+0200",
+      "duration" : 244.0,
+      "distance" : 212.0,
+      "steps" : 283,
+      "calories" : 13,
+      "trackPoints" : [ ]
+    }, {
+      "activity" : "walking",
+      "group" : "walking",
+      "manual" : false,
+      "startTime" : "20140410T180101+0200",
+      "endTime" : "20140410T180339+0200",
+      "duration" : 158.0,
+      "distance" : 147.0,
+      "steps" : 196,
+      "calories" : 9,
+      "trackPoints" : [ ]
+    }, {
+      "activity" : "walking",
+      "group" : "walking",
+      "manual" : false,
+      "startTime" : "20140410T190154+0200",
+      "endTime" : "20140410T192224+0200",
+      "duration" : 1230.0,
+      "distance" : 1496.0,
+      "steps" : 1995,
+      "calories" : 93,
+      "trackPoints" : [ ]
+    } ],
+    "lastUpdate" : "20140410T232940Z"
+  }, {
+    "type" : "move",
+    "startTime" : "20140410T210654+0200",
+    "endTime" : "20140410T213348+0200",
+    "activities" : [ {
+      "activity" : "transport",
+      "group" : "transport",
+      "manual" : false,
+      "startTime" : "20140410T210654+0200",
+      "endTime" : "20140410T212334+0200",
+      "duration" : 1000.0,
+      "distance" : 1788.0,
+      "trackPoints" : [ {
+        "lat" : 55.6721368279,
+        "lon" : 12.5858542381,
+        "time" : "20140410T210654+0200"
+      }, {
+        "lat" : 55.685985046,
+        "lon" : 12.5892698404,
+        "time" : "20140410T212334+0200"
+      } ]
+    }, {
+      "activity" : "walking",
+      "group" : "walking",
+      "manual" : false,
+      "startTime" : "20140410T212334+0200",
+      "endTime" : "20140410T213348+0200",
+      "duration" : 614.0,
+      "distance" : 957.0,
+      "steps" : 963,
+      "calories" : 59,
+      "trackPoints" : [ {
+        "lat" : 55.685985046,
+        "lon" : 12.5892698404,
+        "time" : "20140410T212334+0200"
+      }, {
+        "lat" : 55.685985046,
+        "lon" : 12.5892698404,
+        "time" : "20140410T212351+0200"
+      }, {
+        "lat" : 55.6858595089,
+        "lon" : 12.5891449493,
+        "time" : "20140410T212407+0200"
+      }, {
+        "lat" : 55.6855255148,
+        "lon" : 12.5888358081,
+        "time" : "20140410T212437+0200"
+      }, {
+        "lat" : 55.6851587497,
+        "lon" : 12.5885061911,
+        "time" : "20140410T212505+0200"
+      }, {
+        "lat" : 55.684615676,
+        "lon" : 12.5880177563,
+        "time" : "20140410T212548+0200"
+      }, {
+        "lat" : 55.6837334015,
+        "lon" : 12.5869164749,
+        "time" : "20140410T212704+0200"
+      }, {
+        "lat" : 55.6833016147,
+        "lon" : 12.5866277877,
+        "time" : "20140410T212731+0200"
+      }, {
+        "lat" : 55.6831211469,
+        "lon" : 12.5864171741,
+        "time" : "20140410T212748+0200"
+      }, {
+        "lat" : 55.6806861927,
+        "lon" : 12.5850175483,
+        "time" : "20140410T213107+0200"
+      }, {
+        "lat" : 55.6808461456,
+        "lon" : 12.5848667814,
+        "time" : "20140410T213122+0200"
+      }, {
+        "lat" : 55.681029391,
+        "lon" : 12.5848514884,
+        "time" : "20140410T213145+0200"
+      }, {
+        "lat" : 55.682052783,
+        "lon" : 12.5831562638,
+        "time" : "20140410T213348+0200"
+      } ]
+    } ],
+    "lastUpdate" : "20140410T232940Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140410T213349+0200",
+    "endTime" : "20140411T005808+0200",
+    "place" : {
+      "id" : 191316407,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.6820560244,
+        "lon" : 12.58316288
+      }
+    },
+    "activities" : [ {
+      "activity" : "walking",
+      "group" : "walking",
+      "manual" : false,
+      "startTime" : "20140410T213543+0200",
+      "endTime" : "20140410T213936+0200",
+      "duration" : 233.0,
+      "distance" : 292.0,
+      "steps" : 389,
+      "calories" : 18,
+      "trackPoints" : [ ]
+    }, {
+      "activity" : "walking",
+      "group" : "walking",
+      "manual" : false,
+      "startTime" : "20140410T220400+0200",
+      "endTime" : "20140410T220741+0200",
+      "duration" : 221.0,
+      "distance" : 243.0,
+      "steps" : 325,
+      "calories" : 15,
+      "trackPoints" : [ ]
+    } ],
+    "lastUpdate" : "20140410T233100Z"
+  } ],
+  "caloriesIdle" : 1790,
+  "lastUpdate" : "20140410T233100Z"
+} ]

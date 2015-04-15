@@ -7,7 +7,7 @@
 }
 
 ul[rn-carousel] {
-    height: 380px;
+    height: 300px;
     width: 100%;
     margin: 0 auto;
     cursor: pointer;
@@ -50,15 +50,15 @@ ul[rn-carousel] {
   display: inline-block;
   text-indent: -999px;
   overflow: hidden;
-  background-color: @gray-dark;
-  border: 1px solid @gray-darker;
+  background-color: @gray;
+  border: 1px solid darken(@gray, 10%);
   width: 10px;
   height: 10px;
   margin: 0 1px;
   border-radius: 500px;
   &.active {
-    background-color: @gray;
-    border: 1px solid darken(@gray, 10%);
+    background-color: @gray-dark;
+    border: 1px solid @gray-darker;
   }
 }
 

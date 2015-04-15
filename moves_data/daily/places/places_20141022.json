@@ -1,0 +1,112 @@
+[ {
+  "date" : "20141022",
+  "segments" : [ {
+    "type" : "place",
+    "startTime" : "20141022T133958+0200",
+    "endTime" : "20141022T145245+0200",
+    "place" : {
+      "id" : 270845208,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.7015749411,
+        "lon" : 12.5809679879
+      }
+    },
+    "lastUpdate" : "20141023T111931Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20141022T152151+0200",
+    "endTime" : "20141022T154203+0200",
+    "place" : {
+      "id" : 270846200,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.6607901095,
+        "lon" : 12.6043515478
+      }
+    },
+    "lastUpdate" : "20141023T111931Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20141022T160634+0200",
+    "endTime" : "20141022T160952+0200",
+    "place" : {
+      "id" : 270880369,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.6900128362,
+        "lon" : 12.5714383521
+      }
+    },
+    "lastUpdate" : "20141023T111931Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20141022T161649+0200",
+    "endTime" : "20141022T164242+0200",
+    "place" : {
+      "id" : 187754601,
+      "name" : "Hindegade 5",
+      "type" : "home",
+      "location" : {
+        "lat" : 55.68614,
+        "lon" : 12.58799
+      }
+    },
+    "lastUpdate" : "20141023T111931Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20141022T165122+0200",
+    "endTime" : "20141022T170344+0200",
+    "place" : {
+      "id" : 271109951,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.6905338483,
+        "lon" : 12.5802566428
+      }
+    },
+    "lastUpdate" : "20141023T111931Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20141022T175653+0200",
+    "endTime" : "20141022T184825+0200",
+    "place" : {
+      "id" : 188034388,
+      "name" : "DataFlight Europe A/S",
+      "type" : "work",
+      "location" : {
+        "lat" : 55.87031,
+        "lon" : 12.3855
+      }
+    },
+    "lastUpdate" : "20141023T111931Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20141022T190051+0200",
+    "endTime" : "20141022T193841+0200",
+    "place" : {
+      "id" : 188876818,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.8672,
+        "lon" : 12.34862
+      }
+    },
+    "lastUpdate" : "20141023T111931Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20141022T202543+0200",
+    "endTime" : "20141023T132903+0200",
+    "place" : {
+      "id" : 187754601,
+      "name" : "Hindegade 5",
+      "type" : "home",
+      "location" : {
+        "lat" : 55.68614,
+        "lon" : 12.58799
+      }
+    },
+    "lastUpdate" : "20141023T224050Z"
+  } ],
+  "lastUpdate" : "20141023T224050Z"
+} ]

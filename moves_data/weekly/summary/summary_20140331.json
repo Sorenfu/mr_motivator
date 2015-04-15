@@ -1,0 +1,110 @@
+[ {
+  "date" : "20140331",
+  "summary" : [ {
+    "activity" : "walking",
+    "group" : "walking",
+    "duration" : 5588.0,
+    "distance" : 5822.0,
+    "steps" : 7583,
+    "calories" : 362
+  }, {
+    "activity" : "transport",
+    "group" : "transport",
+    "duration" : 592.0,
+    "distance" : 681.0
+  } ],
+  "caloriesIdle" : 1790,
+  "lastUpdate" : "20140401T190900Z"
+}, {
+  "date" : "20140401",
+  "summary" : [ {
+    "activity" : "walking",
+    "group" : "walking",
+    "duration" : 5683.0,
+    "distance" : 5710.0,
+    "steps" : 7564,
+    "calories" : 355
+  }, {
+    "activity" : "transport",
+    "group" : "transport",
+    "duration" : 5655.0,
+    "distance" : 66494.0
+  } ],
+  "caloriesIdle" : 1790,
+  "lastUpdate" : "20140518T213339Z"
+}, {
+  "date" : "20140402",
+  "summary" : [ {
+    "activity" : "walking",
+    "group" : "walking",
+    "duration" : 5445.0,
+    "distance" : 5504.0,
+    "steps" : 7055,
+    "calories" : 342
+  }, {
+    "activity" : "transport",
+    "group" : "transport",
+    "duration" : 6210.0,
+    "distance" : 71931.0
+  } ],
+  "caloriesIdle" : 1790,
+  "lastUpdate" : "20140518T213339Z"
+}, {
+  "date" : "20140403",
+  "summary" : [ {
+    "activity" : "walking",
+    "group" : "walking",
+    "duration" : 3648.0,
+    "distance" : 3944.0,
+    "steps" : 4646,
+    "calories" : 245
+  }, {
+    "activity" : "transport",
+    "group" : "transport",
+    "duration" : 8871.0,
+    "distance" : 96853.0
+  } ],
+  "caloriesIdle" : 1790,
+  "lastUpdate" : "20140518T213339Z"
+}, {
+  "date" : "20140404",
+  "summary" : [ {
+    "activity" : "walking",
+    "group" : "walking",
+    "duration" : 3139.0,
+    "distance" : 2470.0,
+    "steps" : 3305,
+    "calories" : 154
+  }, {
+    "activity" : "transport",
+    "group" : "transport",
+    "duration" : 4326.0,
+    "distance" : 56517.0
+  } ],
+  "caloriesIdle" : 1790,
+  "lastUpdate" : "20140406T020821Z"
+}, {
+  "date" : "20140405",
+  "summary" : [ {
+    "activity" : "walking",
+    "group" : "walking",
+    "duration" : 5290.0,
+    "distance" : 4549.0,
+    "steps" : 6047,
+    "calories" : 283
+  } ],
+  "caloriesIdle" : 1790,
+  "lastUpdate" : "20140406T020821Z"
+}, {
+  "date" : "20140406",
+  "summary" : [ {
+    "activity" : "walking",
+    "group" : "walking",
+    "duration" : 1777.0,
+    "distance" : 1854.0,
+    "steps" : 2178,
+    "calories" : 115
+  } ],
+  "caloriesIdle" : 1790,
+  "lastUpdate" : "20140407T075829Z"
+} ]

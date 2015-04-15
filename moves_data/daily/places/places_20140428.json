@@ -1,0 +1,59 @@
+[ {
+  "date" : "20140428",
+  "segments" : [ {
+    "type" : "place",
+    "startTime" : "20140428T101354+0200",
+    "endTime" : "20140428T154611+0200",
+    "place" : {
+      "id" : 188034388,
+      "name" : "DataFlight Europe A/S",
+      "type" : "work",
+      "location" : {
+        "lat" : 55.87031,
+        "lon" : 12.3855
+      }
+    },
+    "lastUpdate" : "20140518T213339Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140428T165907+0200",
+    "endTime" : "20140428T181141+0200",
+    "place" : {
+      "id" : 197682682,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.6854469527,
+        "lon" : 12.5880413407
+      }
+    },
+    "lastUpdate" : "20140429T070515Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140428T181937+0200",
+    "endTime" : "20140428T220709+0200",
+    "place" : {
+      "id" : 196425217,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.6826234658,
+        "lon" : 12.5823431793
+      }
+    },
+    "lastUpdate" : "20140429T070515Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140428T221234+0200",
+    "endTime" : "20140429T090341+0200",
+    "place" : {
+      "id" : 187754601,
+      "name" : "Hindegade 5",
+      "type" : "home",
+      "location" : {
+        "lat" : 55.68614,
+        "lon" : 12.58799
+      }
+    },
+    "lastUpdate" : "20140429T081509Z"
+  } ],
+  "lastUpdate" : "20140518T213339Z"
+} ]

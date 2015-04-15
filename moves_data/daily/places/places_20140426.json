@@ -1,0 +1,59 @@
+[ {
+  "date" : "20140426",
+  "segments" : [ {
+    "type" : "place",
+    "startTime" : "20140426T002220+0200",
+    "endTime" : "20140426T111443+0200",
+    "place" : {
+      "id" : 187754601,
+      "name" : "Hindegade 5",
+      "type" : "home",
+      "location" : {
+        "lat" : 55.68614,
+        "lon" : 12.58799
+      }
+    },
+    "lastUpdate" : "20140426T120502Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140426T121023+0200",
+    "endTime" : "20140426T122218+0200",
+    "place" : {
+      "id" : 188876818,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.8672,
+        "lon" : 12.34862
+      }
+    },
+    "lastUpdate" : "20140426T120502Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140426T123117+0200",
+    "endTime" : "20140426T140418+0200",
+    "place" : {
+      "id" : 188034388,
+      "name" : "DataFlight Europe A/S",
+      "type" : "work",
+      "location" : {
+        "lat" : 55.87031,
+        "lon" : 12.3855
+      }
+    },
+    "lastUpdate" : "20140518T213339Z"
+  }, {
+    "type" : "place",
+    "startTime" : "20140426T150042+0200",
+    "endTime" : "20140426T150543+0200",
+    "place" : {
+      "id" : 196425217,
+      "type" : "unknown",
+      "location" : {
+        "lat" : 55.6826234658,
+        "lon" : 12.5823431793
+      }
+    },
+    "lastUpdate" : "20140429T070515Z"
+  } ],
+  "lastUpdate" : "20140518T213339Z"
+} ]
