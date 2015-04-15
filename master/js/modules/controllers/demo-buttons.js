@@ -4,6 +4,6 @@
  =========================================================*/
 
 App.controller('ButtonsCtrl', ['$scope', function ($scope) {
-  $scope.radioModel = 'Month';
+  $scope.radioModel = 'Week';
 
 }]);

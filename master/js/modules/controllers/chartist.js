@@ -2,6 +2,10 @@
  * Module: chartist.js
  =========================================================*/
 
+function dayOfWeekAsString(dayIndex) {
+    return ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"][dayIndex];
+}
+
 App.controller('ChartistController', ['$scope', function ($scope) {
     'use strict';
 
@@ -11,10 +15,16 @@ App.controller('ChartistController', ['$scope', function ($scope) {
     // Let's put a sequence number aside so we can use it in the event callbacks
     var seq = 0,
         delays = 80,
-        durations = 500;
+        durations = 300,
+        weeklabels = [];
+    for (var i = 0; i < 7; i++) {
+        var today = new Date();
+        var weekday = new Date(today.getTime() + 24*60*60*1000*i);
+        weeklabels[i] = dayOfWeekAsString(weekday.getDay());
+    }
 
     $scope.smilData = {
-        labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+        labels: weeklabels,
         series: [
             {
                 data: [3, 4, 5, 6, 7, 6, 4, 5, 6, 7, 6, 3],
@@ -149,22 +159,6 @@ App.controller('ChartistController', ['$scope', function ($scope) {
         showPoint: false,
         fullWidth: true,
         height: 260
-    };
-
-    $scope.pathEvents = {
-        draw: function (data) {
-            if (data.type === 'line' || data.type === 'area') {
-                data.element.animate({
-                    d: {
-                        begin: 2000 * data.index,
-                        dur: 2000,
-                        from: data.path.clone().scale(1, 0).translate(0, data.chartRect.height()).stringify(),
-                        to: data.path.clone().stringify(),
-                        easing: Chartist.Svg.Easing.easeOutQuint
-                    }
-                });
-            }
-        }
     };
 
 }]);
