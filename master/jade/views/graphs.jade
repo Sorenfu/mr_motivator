@@ -19,9 +19,13 @@ h4 My graphs
   .row
     .col-md-12(ng-controller="GraphsCarouselController")
       .carousel-demo(ng-controller='ChartistController')
-        ul.list-unstyled.carousel2(rn-carousel, rn-carousel-index="carouselIndex", rn-carousel-loop)
+        ul.list-unstyled.carousel2(rn-carousel  , rn-carousel-index="carouselIndex", rn-carousel-loop)
           li
             div
               h4 Steps per day
-              .ct-chart
+              .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData', chartist-chart-options="smilOptions")
+          li
+            div
+              h4 Time per 100 steps
+              .ct-chart(chartist="", chartist-chart-type='Line', chartist-data='smilData2', chartist-chart-options="smilOptions")
         div(rn-carousel-indicators='', rn-carousel-index='carouselIndex', slides="[0,1]")
