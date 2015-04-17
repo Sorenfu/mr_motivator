@@ -20567,3 +20567,15 @@ flatdoc [role~="flatdoc-content"] > h3 {
   border-top: 1px solid #f1f2f3;
   margin: 0 -20px;
 }
+
+.ct-series.ct-series-d .ct-point {
+  display: none;
+}
+
+.ct-series.ct-series-d :nth-child(2) {
+  display: inherit;
+}
+
+.ct-series.ct-series-d :last-child {
+  display: inherit;
+}
