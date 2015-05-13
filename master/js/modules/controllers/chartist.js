@@ -20,7 +20,7 @@ App.controller('ChartistController', ['$scope', function ($scope) {
 
     var steps = [9218, 7583, 7564, 7055, 4646, 3305, 6047, 2178];
     var durations = [7603, 5588, 5683, 5445, 3648, 3139, 5290, 1777];
-    var knee_measurements = [44.2, 44.22, 44.3, 44.35, 44.4, 44.45, 44.5];
+    var knee_measurements = [44.5, 45, 45.5, 46, 46.5, 47, 47.5, 48];
 
     for (var i = 0; i < 7; i++) {
         var today = new Date();
@@ -63,11 +63,17 @@ App.controller('ChartistController', ['$scope', function ($scope) {
     };
 
     $scope.smilOptions = {
-        height: 260
+        height: 260,
+        low: 0,
+        axisX: {
+            labelInterpolationFnc: function(value, index) {
+                return 'hej';
+            }
+        }
     };
     $scope.smilOptions2 = {
         height: 260,
-        low: 35
+        low: 0
     };
 
     $scope.smilEvents = {
